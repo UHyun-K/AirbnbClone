@@ -1,0 +1,4 @@
+:root {
+  --gray: #717171;
+  --border-gray: 1px solid var(--gray);
+}

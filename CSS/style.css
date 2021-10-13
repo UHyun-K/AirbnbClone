@@ -1,0 +1,6 @@
+@import url(reset.css);
+@import url(varibles.css);
+
+/*componets*/
+@import url(components/main-header.css);
+@import url(components/top-bar.css);
