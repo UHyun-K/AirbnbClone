@@ -1,0 +1,19 @@
+.column-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.column-list__content {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+}
+.column-list__content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.column-list__text-title {
+  font-size: 18px;
+  font-weight: 700;
+}

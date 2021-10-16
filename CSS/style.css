@@ -4,3 +4,9 @@
 /*componets*/
 @import url(components/main-header.css);
 @import url(components/top-bar.css);
+@import url(components/search-form.css);
+@import url(components/row-list.css);
+@import url(components/column-list.css);
+
+/*screens*/
+@import url(screens/rooms.css);
