@@ -35,21 +35,43 @@
 .main-content {
   padding: 0 80px;
 }
-/*
-여기서부터
-*/
+
 .start-hosting {
+  margin-bottom: 65px;
   height: 400px;
-  background: pink;
-  background-position: 150% 90%;
+  background: url(https://a0.muscache.com/im/pictures/791aba62-2de8-4722-99b5-45838715eb34.jpg?im_q=medq&im_w=720)
+    no-repeat;
+  background-position: 150% 96%;
   background-size: 70%;
   position: relative;
-  z-index: 1;
+
+  border-radius: 5%;
 }
 .start-hosting__background-gradient {
+  background: linear-gradient(to right, #1e1d19 70%, rgba(0, 0, 0, 0.7));
   width: 50%;
+  height: 100%;
   position: absolute;
-  z-index: 10;
+  padding-left: 80px;
+  border-radius: 5%;
+}
+.start-hosting__title {
+  padding-top: 100px;
 
-  background-color: blue;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.start-hosting p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+.start-hosting .more {
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
 }

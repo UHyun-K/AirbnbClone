@@ -17,3 +17,18 @@
   font-size: 18px;
   font-weight: 700;
 }
+
+/*특별한 즐길거리를 찾아보세요*/
+.column-list__special {
+  margin-bottom: 60px;
+}
+.column-list__special .column-list__content {
+  width: 385px;
+}
+.column-list__special-title {
+  display: block;
+  margin-bottom: 10px;
+}
+.column-list__special-subtitle {
+  font-size: 13px;
+}

@@ -1,0 +1,25 @@
+footer {
+  padding: 50px 80px;
+  background: #f7f7f7;
+}
+.policy {
+  display: flex;
+  margin-right: 70px;
+
+  border-bottom: 1px solid #dddddd;
+  justify-content: space-between;
+}
+.policy span {
+  display: block;
+  margin-bottom: 25px;
+}
+.policy__title {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.policy__list li {
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
