@@ -1,12 +1,12 @@
 footer {
   padding: 50px 80px;
+  padding-bottom: 0;
   background: #f7f7f7;
 }
 .policy {
   display: flex;
   margin-right: 70px;
 
-  border-bottom: 1px solid #dddddd;
   justify-content: space-between;
 }
 .policy span {
@@ -22,4 +22,40 @@ footer {
   font-weight: normal;
   margin-bottom: 20px;
   font-size: 14px;
+}
+.address {
+  border-top: 1px solid #dddddd;
+  width: 1200px;
+  padding: 25px 0;
+  display: flex;
+}
+.address-column:first-child {
+  font-size: 14px;
+  word-spacing: -1px;
+}
+.address-column span {
+  padding: 0 8px;
+}
+.address-column:nth-child(2) {
+  margin-left: 93px;
+  margin-right: 60px;
+  font-size: 15px;
+}
+.address-column:nth-child(2) u {
+  text-decoration: underline;
+}
+.address-column i {
+  color: black;
+  margin: 0;
+  margin-right: 3px;
+}
+.address-column__korean {
+  margin-right: 15px;
+}
+.sns {
+  display: flex;
+}
+.sns i {
+  font-size: 25px;
+  margin-right: 16px;
 }
